@@ -129,10 +129,10 @@ header a:hover {
     align-items: center;
     padding: 0px;
 }
-@media (max-width: 768px) 
-. main-container 
+@media (max-width: 768px) {}
+    .main-container {
         flex-direction: column;
-
+    }
 
     .profile-card,
     .contact {
