@@ -1,11 +1,11 @@
 header a {
     text-decoration: none;
-    color: goldenrod;
+    color: rgb(39, 48, 51);
 }
 header {
     color: black;
     text-align: center;
-    background-color: beige;
+    background-color: rgb(5, 107, 249);
     padding-bottom: 50px;
     min-height: 100%;
     margin-top: 0%;
@@ -29,15 +29,15 @@ header a:hover {
 .Project-list {
     margin: 1em;
     padding: 1em;
-    border: 1px solid #ddd;
+    border: 1px solid #2296d4;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
     transition: transform 0.3s;
-    background-color: blanchedalmond;
+    background-color: rgb(65, 151, 255);
 }
 .Project-list h3 {
-    border: 2px solid goldenrod;
+    border: 2px solid rgb(45, 155, 251);
     border-radius: 4px;
     padding: 5px 10px;
     display: block;
@@ -75,7 +75,7 @@ header a:hover {
 }
 
 .Project-list button {
-    background-color: goldenrod;
+    background-color: rgb(113, 38, 0);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -87,7 +87,7 @@ header a:hover {
     margin: 16px auto 0 auto;
 }
 .Project-list button:hover {
-    background-color: darkgoldenrod;
+    background-color: rgb(15, 167, 227);
     transform: translateY(-3px);
 }
 .Project-list button a {
@@ -102,7 +102,7 @@ header a:hover {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-       background-color: blanchedalmond;
+       background-color: rgb(8, 156, 242);
     max-width: 400px;
     margin: 20px auto;
 }
@@ -114,7 +114,7 @@ header a:hover {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    background-color: blanchedalmond;
+    background-color: rgb(6, 180, 255);
     max-width: 400px;
     margin: 20px auto;
 }
