@@ -1,1 +1,158 @@
+header a {
+    text-decoration: none;
+    color: goldenrod;
+}
+header {
+    color: black;
+    text-align: center;
+    background-color: beige;
+    padding-bottom: 50px;
+    min-height: 100%;
+    margin-top: 0%;
+}
+header h1 {
+    font-size: 3em;
+    margin-top: 0%;
+}
+header a:hover {
+    display: inline-block;
+    color: black;
+    transform: scale(1.1);
+}
 
+.Projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+    padding: 1em;
+}
+.Project-list {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+    background-color: blanchedalmond;
+}
+.Project-list h3 {
+    border: 2px solid goldenrod;
+    border-radius: 4px;
+    padding: 5px 10px;
+    display: block;
+}
+.Project-list:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+.Projects img {
+    width: 80%; 
+    height: auto;
+    border-radius: 4px;
+    padding: 10px;
+}
+.Project-list p {
+    font-size: 1.1rem;
+    font-weight: 200;
+    margin-top: 0.5em;
+    margin-bottom: 8px;
+    max-width: 700px;
+    margin-left: auto;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: justify;
+}
+.Projects :hover img {
+    transform: scale(1.05);
+    transition: transform .9s;
+}
+
+#projectdeclaration {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Project-list button {
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s, transform 0.3s;
+    display: block;
+    margin: 16px auto 0 auto;
+}
+.Project-list button:hover {
+    background-color: darkgoldenrod;
+    transform: translateY(-3px);
+}
+.Project-list button a {
+    color: white;
+    text-decoration: none;
+}
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+       background-color: blanchedalmond;
+    max-width: 400px;
+    margin: 20px auto;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: blanchedalmond;
+    max-width: 400px;
+    margin: 20px auto;
+}
+.contact a {
+    color: goldenrod;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0px;
+}
+@media (max-width: 768px) 
+. main-container 
+        flex-direction: column;
+
+
+    .profile-card,
+    .contact {
+        max-width: 100%;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .Projects {
+        grid-template-columns: 1fr; 
+    }
+
+    .Project-list {
+        margin: 0.5em 0; 
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .Projects img {
+        width: 100%; 
+    }
